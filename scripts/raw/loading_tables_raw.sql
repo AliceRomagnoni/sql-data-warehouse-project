@@ -22,7 +22,7 @@ BEGIN
 	DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @batch_end_time DATETIME
 	BEGIN TRY
 		PRINT '========================================';
-		PRINT 'Loading Row Layer';
+		PRINT 'Loading Raw Layer';
 		PRINT '========================================';
 		
 		SET @batch_start_time = GETDATE()
